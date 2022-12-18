@@ -28,7 +28,7 @@ void PrintArray(int[] collection)
     }
 }
 
-int AditionPaitsOfNumbers(int[] collection)
+int AditionPairsOfNumbers(int[] collection)
 {
     int result = 0;
     int Length = collection.Length;
@@ -46,6 +46,6 @@ int AditionPaitsOfNumbers(int[] collection)
 int[] Array = new int[5];
 FillArray(Array);
 PrintArray(Array);
-int answer = AditionPaitsOfNumbers(Array);
+int answer = AditionPairsOfNumbers(Array);
 Console.Write("->  ");
 Console.WriteLine(answer);
