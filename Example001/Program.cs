@@ -15,7 +15,7 @@ while(M >= time)
 {
     Random rand = new Random();
     int num = rand.Next(-10,11);
-    Console.WriteLine(num);
+    Console.Write($"{num} ");
     if(num > 0)
     {
         count++;
